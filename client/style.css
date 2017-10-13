@@ -1,0 +1,13 @@
+.jumbotron {
+    background-color: #ffffff !important;
+    /* margin-bottom: 0px !important; */
+    
+}
+.hello{
+   font-family: 'Nosifer';
+    color: orange;
+    font-weight: bolder;
+}
+p, a{
+    font-family: 'Bitter', serif;    
+}
