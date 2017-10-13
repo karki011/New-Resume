@@ -3,11 +3,16 @@
     /* margin-bottom: 0px !important; */
     
 }
-.hello{
+.hello, hr h3{
    font-family: 'Nosifer';
     color: orange;
     font-weight: bolder;
 }
+.middletitle{
+    font-family: 'Nosifer';
+     color: orange;
+     font-weight: bolder;
+ }
 p, a{
     font-family: 'Bitter', serif;    
 }
