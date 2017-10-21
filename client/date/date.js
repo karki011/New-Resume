@@ -29,3 +29,10 @@ if (hour === 0 && prepand ===' AM') {
     }
 }
 console.log("Current Time : "+hour +  ": "+ minute + ": " + second +" "+ prepand);
+
+
+var currentDate = document.getElementById("date");
+currentDate.innerHTML = ("Today is: " + daylist[day]+ ".");
+
+var currentTime = document.getElementById('time');
+currentTime.innerHTML = ("Current Time : "+hour +  ": "+ minute + ": " + second +" "+ prepand);
