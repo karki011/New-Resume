@@ -17,6 +17,6 @@ p, a{
     font-family: 'Bitter', serif;    
 }
 .listSite{
-    display: inline;
-    padding: 2em;
+    display: inline-block;
+    padding: 1em;
 }

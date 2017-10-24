@@ -1,0 +1,12 @@
+body {
+    background: #f06d06;
+    font-size: 80%;
+    padding: 20px;
+  }
+#load{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  
+}
