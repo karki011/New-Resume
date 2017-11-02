@@ -46,3 +46,69 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+
+body {
+    background-color: rgb(216, 201, 216) !important;
+}
+#container{
+    margin: 0 auto;
+    width: 440px;
+    background-color: rgb(11, 219, 105);
+    font-family: Helvetica, sans-serif;
+    border: 8px solid #77669d;
+    margin-top: 20px;
+    border-radius: 9px;
+    padding: 20px;
+}
+#container #button{
+    overflow: auto;/* contain childer element*/
+    font-size: 15px
+}
+#container #button li{
+    background: #e2daf1;
+    float: left;
+    width: 23%;
+    height: 80px;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    border-radius:  4px;
+    cursor: pointer;
+    box-shadow: 0px 3px 1px #9c8bbd;
+    line-height: 80px;
+}    
+
+#container #button li:nth-child(4n){
+    margin-right: 0px;
+    background-color: lightcoral;
+    font-size: 27px;
+}
+#container #button li:active{
+    box-shadow: 0px 0px 0px #9c8bbd;
+    margin-top: 3px;
+    margin-bottom: 7px;
+}
+#container #output {
+    overflow:auto;
+    margin-bottom: 20px;
+}
+#container #output #clear{
+    width: 10%;
+    float: left;
+    background-color: #f6c4c4;
+    text-align: center;
+    padding: 15px 0;
+    cursor: pointer;
+}
+#container #output #answer{
+    float: left;
+    background-color: #ee99ee;
+    width: 90%;
+    padding: 0px 10px;
+    text-align: right;
+    line-height: 54px;
+    height: 54px;
+    line-height: 46px;
+}
+    
