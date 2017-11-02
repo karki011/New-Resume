@@ -99,7 +99,7 @@ body {
     background-color: #f6c4c4;
     text-align: center;
     padding: 15px 0;
-    cursor: pointer;
+    cursor: pointer;    
 }
 #container #output #answer{
     float: left;
