@@ -12,4 +12,12 @@ def check_cruse(txt_to_check):
     print(output)
     connection.close()
 
+    if "true" in output:
+        print("Curse Word Found!!!")
+    elif "false" in output:
+        print("NO CRUSE WORD")
+    else:
+        print("couldnot scan document")
+
+
 read_text()
