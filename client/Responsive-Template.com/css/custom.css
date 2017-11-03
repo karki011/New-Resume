@@ -1,0 +1,190 @@
+body{
+    margin-top: 50px;
+}
+.topbar{
+    background: #ca2129;
+    height: 5px;
+    margin-bottom: 1px;
+}
+
+.navbar{
+    margin-bottom: 1px;
+}
+
+.navbar li:hover{
+    background: #e7e7e7;
+}
+
+li.login a{
+    background: #ca2129;
+    margin-bottom: -10px !important;
+    color: white !important;
+    padding-right: 22px;
+    padding-left: 22px;
+}
+li.login a:hover, .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus{
+    background: lightgray;
+
+}
+
+li.register a{
+    background: #2f98cc;
+    margin-bottom: -10px !important;
+    color: #ffffff !important;
+}
+li.register a:hover, .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus{
+    background: lightgray;
+
+}
+
+.jumbotron{
+    background: url(../images/waterdrop.jpg) no-repeat 50% 0;
+    height: 350px;
+    padding: 0;
+}
+
+.jumbotron [class*="col-"]{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #eee;
+    border: 1px solid #ddd;
+    background-color: rgba(86, 61, 124, .15);
+    border: 1px solid rgba(86, 61, 124, .2);
+    overflow: auto;
+    height: 350px;
+}
+
+.jumbotron-content{
+    color: white;
+}
+
+.jumbotron h1{
+    font-size: 34px;
+    border-bottom: #ffffff solid 1px;
+    padding-bottom: 10px;
+}
+
+.bluebox{
+    background: #2e98cc;
+    overflow: hidden;
+    height: 230px;
+    color: #ffffff;
+    padding: 0 10px;
+    font-size: 120%;
+}
+
+.bluebox a.readmore{
+    position: absolute;
+    bottom: 15px;
+    left: 30px;
+    background: #2b8cbc;
+    padding: 10px 15px;
+    color: white;
+}
+.bluebox a.readmore:hover{
+    background: #20749d;
+}
+
+.redbox{
+    background: #ca2129;
+    overflow: hidden;
+    height: 230px;
+    color: #ffffff;
+    padding: 0 10px;
+    font-size: 120%;
+}
+
+.redbox a.readmore{
+    position: absolute;
+    bottom: 15px;
+    left: 30px;
+    background: #bf1e26;
+    padding: 10px 15px;
+    color: white;
+}
+.redbox a.readmore:hover{
+    background: #86161b;
+}
+
+.pad-top-10{
+    padding-top: 10px;
+
+}
+.pad-top-20{
+    padding-top: 20px;
+
+}
+.pad-top-30{
+    padding-top: 30px;
+
+}
+
+.well{
+    background: #ffffff !important;
+}
+.media-body{
+    font-size: 120%;
+}
+
+.panel-default > .panel-heading{
+    background: #2e98cc !important;
+    color: #ffffff;
+}
+.list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus{
+    background: #ca2129;
+    border: #ca2129;
+}
+.gray-list .list-group-item.active, .gray-list .list-group-item.active:hover, .gray-list .list-group-item.active:focus{
+    background:lightgrey;
+    border: #cccccc;
+    color: darkgray
+}
+
+#blog img{
+    margin: 5px 0 15px 0;
+    border: 1px #cccccc solid;
+    padding: 3px;
+    border-radius: 5px;
+    width: 100%;
+
+}
+
+#blog a.readmore{
+    background: #2b8cbc;
+    padding: 10px 15px;
+    color: #ffffff;
+    text-align: center;
+    display: block;
+    margin-top: 20px !important;
+    border-radius: 5px;
+}
+
+#blog a.readme:hover{
+    background: #20749d;
+}
+
+small{
+    padding: 5px;
+    background: #f4f4f4;
+    border: #dddddd solid 1px;
+    border-radius: 10px;
+    width: 100%;
+    display: block;
+    margin: 5px 0 10px 0;
+}
+iframe.gmap{
+    width: 100%;
+    border: #cccccc 1px solid;
+    border-radius: 10px;
+    padding: 3px;
+}
+.greywell{
+    background: lightgray !important;
+}
+
+footer{
+    text-align: center;
+    padding: 20px 0;
+    font-weight: bold;
+    background: lightgray
+}
