@@ -1,22 +1,42 @@
+* {
+    box-sizing:  boder-box;
+}
+
+;
 .jumbotron {
     background-color: #ffffff !important;
     /* margin-bottom: 0px !important; */
-    
 }
-.hello, hr h3{
-   font-family: 'Nosifer';
+
+.hello,
+hr h3 {
+    font-family: 'Nosifer';
     color: orange;
     font-weight: bolder;
 }
-.middletitle{
+
+.middletitle {
     font-family: 'Nosifer';
-     color: orange;
-     font-weight: bolder;
- }
-p, a{
-    font-family: 'Bitter', serif;    
+    color: orange;
+    font-weight: bolder;
 }
-.listSite{
-    display: inline-block;
+
+p,
+a {
+    font-family: 'Bitter', serif;
+}
+
+.listSite {
+    display: table-cell;
     padding: 1em;
+    border: 2px solid black;
+    background: lightblue;
+    float: left;
+    margin: 1px;
+    height: 250px;
+    overflow: auto;
+    width: 220px;
+    border-radius: 21px;
+
 }
+
